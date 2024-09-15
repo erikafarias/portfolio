@@ -8,24 +8,27 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="../styles/style.css" />
   </head>
   <body>
     <header>
       <nav>
-        <ul class="header-title">
-          <a href="../index.html">Inicio</a>
-        </ul>
-        <ul class="header-title">
-          <a href="./about_me.html">Sobre Mi</a>
-        </ul>
-        <ul class="header-title">
-          <a href="./resume.html">Curriculum</a>
-        </ul>
-        <ul class="header-title">
-          <a href="./services.html">Servicios</a>
-        </ul>
-        <ul class="header-title">
-          <a href="./contact.html">Contacto</a>
+        <ul>
+          <li class="header-title">
+            <a href="../index.html">Inicio</a>
+          </li>
+          <li class="header-title">
+            <a href="./about_me.html">Sobre Mi</a>
+          </li>
+          <li class="header-title">
+            <a href="./resume.html">Curriculum</a>
+          </li>
+          <li class="header-title">
+            <a href="./services.html">Servicios</a>
+          </li>
+          <li class="header-title">
+            <a href="./contact.html">Contacto</a>
+          </li>
         </ul>
       </nav>
     </header>
@@ -39,20 +42,39 @@
         href="https://drive.google.com/file/d/1XWT8hR12SZYZBUKrdtIC-agwJXl2d8mE/view?usp=sharing"
         >Enlace a mi CV en formato PDF.</a
       >
-      <h2>Experiencia profesional</h2>
-      <h3>Desarrolladora Fullstack en BBVA Argentina</h3>
-      <p>2022 - Actualidad</p>
-      <p>Desarrollo de aplicaciones Java.</p>
-      <p>Resolución de incidencias productivas con sistema de tickets.</p>
-      <h2>Formación académica</h2>
-      <h3>Licenciatura en gestión de tecnologías de la información, UADE</h3>
-      <p>2024 - En curso</p>
-      <h3>Curso Backend en ADA Itw</h3>
-      <p>Marzo - Noviembre 2021</p>
-      <p>Desarrollo Backend en Lenguaje Java con framework Springboot</p>
-      <h3>Curso FullStack Codo a Codo</h3>
-      <p>Marzo - Junio 2021</p>
-      <p>Desarrollo FullStack en Lenguaje Python</p>
+      <div class="card card-resume">
+        <h2>Experiencia profesional</h2>
+
+        <h3 class="subtitle-resume">
+          Desarrolladora Fullstack en BBVA Argentina
+        </h3>
+        <div class="details">
+          <p>2022 - Actualidad</p>
+          <p>Desarrollo de aplicaciones Java.</p>
+          <p>Resolución de incidencias productivas con sistema de tickets.</p>
+        </div>
+
+        <h2>Formación académica</h2>
+
+        <h3 class="subtitle-resume">
+          Licenciatura en gestión de tecnologías de la información, UADE
+        </h3>
+        <div class="details">
+          <p>2024 - En curso</p>
+        </div>
+
+        <h3 class="subtitle-resume">Curso Backend en ADA Itw</h3>
+        <div class="details">
+          <p>Marzo - Noviembre 2021</p>
+          <p>Desarrollo Backend en Lenguaje Java con framework Springboot</p>
+        </div>
+
+        <h3 class="subtitle-resume">Curso FullStack Codo a Codo</h3>
+        <div class="details">
+          <p>Marzo - Junio 2021</p>
+          <p>Desarrollo FullStack en Lenguaje Python</p>
+        </div>
+      </div>
     </main>
     <footer>
       <p>
